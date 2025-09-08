@@ -1,0 +1,25 @@
+  .gridcontainer{
+            background-color: red;
+            border: 2px solid black;
+            display: grid;
+            height: 700px;
+            gap: 1px;
+             /* grid-template-columns: 150px 1fr 1fr 150px; */
+            /* grid-template-rows: 50px 1fr 30px;  */
+            text-align: center;
+
+        }
+        .griditem{
+            background-color: aqua;
+            border: 2px solid black;
+            
+
+        }
+        #grid1 , #grid4{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        #grid3{
+            grid-column-start: 2;
+            grid-column-end:4 ;
+        }

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+       
+        .gridcontainer{
+            display: grid;
+             grid-template-columns:   330px 1fr ;
+
+        }
+       
+         #grid1 {
+            padding: 50px;
+            background-color: rgb(24, 24, 94);
+            color: #fff;
+        } 
+        #grid1 li {
+            list-style: square;
+        }
+        #grid1 h1{
+            color: rgb(203, 125, 8);
+        }
+        .mainImg{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        #grid2 {
+            padding: 10px;
+           background-color: #fff;
+           border: 2px solid black;
+        }
+        #grid2 h1{
+             color: rgb(24, 24, 94);
+        }
+        #mainHead{
+            text-align: center;
+            font-size: 35px;
+            /* display: inline-block; */
+            font-weight:900;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(24, 24, 94);
+            font-style: italic;
+            /* font-style: unset; */
+        }
+        .eduTop1{
+            display: flex;
+            gap: 60px;
+        }
+        .highlight{
+            color: black;
+            background-color:rgb(203, 125, 8);
+            border: 2px solid rgb(203, 125, 8);
+            border-radius: 8px;
+        }
+        .eduTop2{
+            display: flex;
+            gap: 60px;
+        }
+        .highlight{
+            color: black;
+            background-color:rgb(203, 125, 8);
+            border: 2px solid rgb(203, 125, 8);
+            border-radius: 8px;
+        }
+        .eduTop3{
+            display: flex;
+            gap: 60px;
+        }
+        .highlight{
+            color: black;
+            background-color:rgb(203, 125, 8);
+            border: 2px solid rgb(203, 125, 8);
+            border-radius: 7px;
+        }
+        .projects li {
+            list-style: square;
+        }
+        .h1Main{
+            color: black;
+            background-color:rgb(203, 125, 8);
+            border: 2px solid rgb(203, 125, 8);
+            border-radius: 7px;
+            display: inline-block;
+        }
+        .social{
+            margin-top: 2px;
+        }
+        .img4{
+            width: 27px;
+            height: 24px;
+        }
+       
+        .social{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:4px;
+        }
+    </style>
+</head>
+<body>
+   <div id="wrapper">
+     <div class="gridcontainer">
+        <div class="griditem" id="grid1">
+            <img src="WhatsApp Image 2025-09-06 at 10.54.35 PM.jpeg" alt="UserImage." class="mainImg">
+            <h1>My Contact:</h1>
+            <ul>
+                <li> <strong>Address</strong>: Mandain Abbottabad</li>
+                <li> <strong>Phone</strong>: 03115266837</li>
+                <li> <strong>Email</strong>:samiiaz11@gmail.com</li>
+                <li> <strong>Socail Media Accounts:</strong>Mentioned</li>
+               
+            </ul>
+            <h1>My Skills:</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>SQL</li>
+                <li>Python</li>
+            </ul>
+            <h1>Languages:</h1>
+            <ul>
+                <li>English</li>
+                <li>Urdu</li>
+                <li>Hindko</li>
+                
+            </ul>
+            <h1>About Me:</h1>
+            <p>I am Hardworking .With Hand on experience in Web Development. I have build differnt
+                projects that boost my problem solving skills.Along With Web Development I am also learning
+                Data Analysis
+            </p>
+        </div>
+        <div class="griditem" id="grid2">
+            <div id="mainHead">
+                <p>Sami Ejaz</p>
+            </div>
+             <div class="social">
+                    <img src="facebook-icon.svg" alt="">
+                    <img src="github-icon.svg" alt="">
+                    <img src="twitter-icon.svg" alt="">
+                    <img src="linkedin-icon.svg" alt="" class=" img4">
+                    <img src="instagram-icon.svg" alt="">
+                </div>
+            <div class="education">
+                <div class="first">
+                     <h1 class="h1Main">Educational Background:</h1>
+                     <p> Bachalors In Computer Science</p>
+                <div class="eduTop1">
+                    <h3>2023-2027</h3>
+                    
+                    <p class="highlight">GPGC Mandain</p>
+                </div>
+                 <p>Currently Studying in Gpgc Mandain with Hand On Experience In Programming and
+                        IT Fundamentals
+                 </p>
+                </div>
+                <div class="second">
+                    <h1>Intermediate</h1>
+                    <div class="eduTop2">
+                        <h3>2021-2023</h3>
+                        <p class="highlight">GPGC Mandain</p>
+
+                    </div>
+                    <p>Graduated intermedaite with Foucs on core Subjects like Physics,Chemistry,Maths</p>
+                </div>
+                <div class="third">
+                    <h1>Metric</h1>
+                    <div class="eduTop3">
+                        <h3>2018-2020</h3>
+                        <p class="highlight">GPGC Mandain</p>
+
+                    </div>
+                    <p>Completed Matriculation with Foucs on core Subjects like Physics,Chemistry,Maths</p>
+                </div>
+               
+            </div>
+            <div class="projects">
+                <h1 class="h1Main"> Projects:</h1>
+                <ol>
+                    <li>Bank Management System</li>
+                    <li>Quiz Game</li>
+                    <li>Wonder World</li>
+                    <li>Amazon Clone</li>
+                    <li>Netflix Clone</li>
+                </ol>
+            </div>
+        </div>
+        
+       
+    </div>
+   </div>
+</body>
+</html>
