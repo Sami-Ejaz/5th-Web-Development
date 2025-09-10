@@ -1,0 +1,62 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid orange;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+   
+}
+.nav_list  a{
+ /* justify-content: space-evenly; */
+ padding: 55px;
+list-style: none;
+text-decoration: none;
+margin-top: -24px;
+color: black;
+font-size: 20px;
+font-weight: 500;
+}
+.nav_list a:hover{
+    cursor: pointer;
+    color: orange;
+    text-decoration: underline;
+
+}
+
+.mainHead{
+    color: rgb(187, 145, 7);
+}
+.mainHead:hover{
+ cursor: pointer;
+ color: rgb(140, 109, 7);
+}
+.navbutton{
+    padding: 15px;
+margin-top: -24px; 
+color: white;
+background-color: rgb(186, 126, 14);
+border-radius: 25px;
+}
+.navbutton:hover{
+    cursor: pointer;
+    background-color: rgb(140, 109, 7);
+}
+.herosection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftpart img{
+    /* align-items: center; */
+    margin-left: 100px;
+}
+.heroHead{
+    font-size: 40px;
+    margin-left: 70px;
+}
+.heroPara{
+    font-size: large;
+    line-height: 1.5;
+}
