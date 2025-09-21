@@ -1,7 +1,13 @@
+ /* .wrapper{
+    
+     max-width: 1000px; 
+    margin: 0 auto;
+    padding: 20px;
+} */
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #f39c12;
 }
 .nav_list{
     display: flex;
@@ -15,38 +21,43 @@ list-style: none;
 text-decoration: none;
 margin-top: -24px;
 color: black;
-font-size: 20px;
+font-size: 15px;
 font-weight: 500;
 }
 .nav_list a:hover{
     cursor: pointer;
-    color: orange;
-    text-decoration: underline;
+    color: #f39c12;
+    
 
 }
 
 .mainHead{
-    color: rgb(187, 145, 7);
+    color: #f39c12;
 }
 .mainHead:hover{
  cursor: pointer;
- color: rgb(140, 109, 7);
+ color:#f39c12;
 }
 .navbutton{
-    padding: 15px;
+    padding: 12px;
 margin-top: -24px; 
 color: white;
-background-color: rgb(186, 126, 14);
-border-radius: 25px;
+background-color: #f39c12;
+border-radius: 5px;
 }
 .navbutton:hover{
     cursor: pointer;
-    background-color: rgb(140, 109, 7);
+    background-color: #fff;
+    color: #f39c12;
+    border: 2px solid #f39c12;
+    
 }
 .herosection{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid #f39c12;
+    
 }
 .leftpart img{
     /* align-items: center; */
@@ -59,4 +70,36 @@ border-radius: 25px;
 .heroPara{
     font-size: large;
     line-height: 1.5;
+}
+.page2card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid #f39c12;
+    /* align-items: center; */
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid #f39c12;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid #f39c12;
+}
+.cardhead{
+    
+    /* border-bottom: 2px solid #f39c12; */
+    /* border-bottom-width: 4px solid #f39c12 ; */
 }
